@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'IRANsans';
+    src: url('fonts/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANsansBold';
+    src: url('fonts/IRANYekanMobileExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANsansNumber';
+    src: url('fonts/iranyekanwebregularfanum.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'filimo';
+    src: url('fonts/Filimo.otf') format('opentype');
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    font-family: "IRANsansNumber";
+}
+
+body {
+    background: var(--site-bg);
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-cstm {
+    max-width: 1104px;
+    padding: 0;
+}
+
+
+
+/* /////////////////////////// menu */
+
+/* /////////////////////////// end of menu */
+
+
+
+
+@media screen and (max-width: 1400px) {}
