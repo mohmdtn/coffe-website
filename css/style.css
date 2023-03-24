@@ -4,13 +4,23 @@
 }
 
 @font-face {
-    font-family: 'IRANsansBold';
-    src: url('fonts/IRANYekanMobileExtraBold.ttf') format('truetype');
+    font-family: 'Estedad';
+    src: url('fonts/Estedad-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'IRANsansNumber';
-    src: url('fonts/iranyekanwebregularfanum.ttf') format('truetype');
+    font-family: 'EstedadLight';
+    src: url('fonts/Estedad-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EstedadExtraLight';
+    src: url('fonts/Estedad-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EstedadBold';
+    src: url('fonts/Estedad-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -24,7 +34,7 @@ html {
     margin: 0;
     direction: rtl;
     text-align: right;
-    font-family: "IRANsansNumber";
+    font-family: "Estedad";
 }
 
 body {
@@ -43,10 +53,108 @@ img {
 
 
 /* /////////////////////////// menu */
+.main .menu {
+    max-width: 1104px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: "EstedadLight";
+}
+
+/* .main .menu .singup {
+    font-family: "EstedadExtraLight";
+} */
+
+.main .menu .sing-up {
+    background: var(--magenta);
+    border-radius: 36px;
+    color: #fff;
+    padding: 6px 20px;
+}
+
+.main .menu .sing-in {
+    color: var(--magenta);
+}
+
+.menu .item {
+    color: #000;
+}
+
+.menu .item a {
+    padding: 0 20px;
+}
 
 /* /////////////////////////// end of menu */
 
 
+
+
+/* /////////////////////////// section 1 */
+
+.section1 {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #F54749 0%, #DC3335 100%);
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.section1 .wrapper {
+    max-width: 588px;
+    margin: 0 auto;
+}
+
+.section1 h2 {
+    line-height: 2;
+    font-family: "EstedadBold";
+}
+
+.section1 h2 span {
+    border: 3px dashed #fff;
+    border-radius: 36px;
+    padding: 0px 26px;
+    margin: 0 10px;
+}
+
+.section1 p {
+    word-spacing: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "EstedadExtraLight";
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.section1 a {
+    border: 1px solid #fff;
+    border-radius: 35px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    padding-right: 35px;
+    font-family: "EstedadExtraLight";
+    margin-bottom: 20px;
+}
+
+.section1 a i {
+    font-size: 41px;
+    margin-right: 5px;
+}
+
+/* /////////////////////////// end of section 1 */
+
+
+
+/* /////////////////////////// section 2 */
+
+.section2 {
+    background: var(--dark-blue);
+    border-radius: 20px;
+}
+
+/* /////////////////////////// end of section 2 */
 
 
 @media screen and (max-width: 1400px) {}
