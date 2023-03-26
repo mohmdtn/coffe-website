@@ -77,7 +77,17 @@ img {
 }
 
 .menu .item a {
-    padding: 0 20px;
+    padding: 0 20px !important;
+}
+
+.navbar-nav {
+    padding-right: 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    font-family: "EstedadLight";
+    color: #000;
 }
 
 /* /////////////////////////// end of menu */
@@ -88,7 +98,7 @@ img {
 /* /////////////////////////// section 1 */
 
 .section1 {
-    padding: 100px 0;
+    padding: 100px 10px;
     background: linear-gradient(180deg, #F54749 0%, #DC3335 100%);
     border-radius: 20px;
     text-align: center;
@@ -152,6 +162,10 @@ img {
 .section2 {
     background: var(--dark-blue);
     border-radius: 20px;
+}
+
+.section2 img {
+    max-width: 100%;
 }
 
 /* /////////////////////////// end of section 2 */
@@ -271,7 +285,6 @@ img {
 /* /////////////////////////// footer */
 
 footer {
-    /* background: linear-gradient(180deg, #F54749 0%, #DC3335 100%); */
     background: var(--magenta);
     border-radius: 20px;
     text-align: center;
@@ -320,4 +333,58 @@ footer P {
 /* /////////////////////////// end of footer */
 
 
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1200px) {
+    .section2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-item{
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .section2 {
+        padding: 10px 10px 0 10px;
+    }
+
+
+
+    .section3 h5 {
+        padding: 10px 0;
+    }
+
+
+    .section4 {
+        margin-top: 40px;
+    }
+
+    .section4 .item .infoWrapper p {
+        font-size: 14px;
+    }
+
+    .section4 .item .infoWrapper h4 {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+
+
+    footer img {
+        max-width: 20%;
+    }
+
+    footer h5 {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer section a {
+        font-size: 20px
+    }
+}

@@ -15,25 +15,43 @@
 <body>
     <div class="main p-3">
 
-        <section class="menu d-flex justify-content-around">
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="w-100">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <section class="singup">
-                <div>
-                    <a href="" class="btn sing-up">ثبت نام</a>
-                    <a href="" class="btn sing-in">ورود</a>
+                    <div class="collapse navbar-collapse justify-content-around flex-row-reverse" id="navbarTogglerDemo03">
+                            
+                        <section class="logo text-center">
+                            <img src="pictures/logo-black.svg" alt="">
+                        </section>
+
+                        <ul class="navbar-nav item d-flex justify-content-center align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">موقعیت های شغلی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">درباره ما</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">سوالات متداول</a>
+                            </li>
+                        </ul>
+
+                        <section class="singup">
+                            <div class="text-center">
+                                <a href="" class="btn sing-up">ثبت نام</a>
+                                <a href="" class="btn sing-in">ورود</a>
+                            </div>
+                        </section>
+                    </div>
+    
+
                 </div>
-            </section>
-
-            <section class="item d-flex justify-content-center align-items-center">
-                <a href="" class="btn">موقعیت های شغلی</a>
-                <a href="" class="btn">درباره ما</a>
-                <a href="" class="btn">سوالات متداول</a>
-            </section>
-
-            <section class="logo">
-                <img src="pictures/logo-black.svg" alt="">
-            </section>
-
+            </nav>
         </section>
 
 
@@ -58,8 +76,10 @@
                         <div class="">
                             <h4 class="text-white pb-3">اوج راحتی را با دانلود اپلیکیشن دنجنشین را تجربه کنید.</h4>
                             <div>
-                                <a href="" class="p-1"><img src="pictures/dl-ios.svg" alt=""></a>
-                                <a href="" class="p-1"><img src="pictures/dl-android.svg" alt=""></a>
+                                <div class="d-inline-block m-1"><a href=""><img src="pictures/dl-ios.svg" alt=""></a>
+                                </div>
+                                <div class="d-inline-block m-1"><a href=""><img src="pictures/dl-android.svg"
+                                            alt=""></a></div>
                             </div>
                         </div>
                     </div>
@@ -77,18 +97,20 @@
         <section class="section3 mt-3">
             <div class="container-cstm text-center mt-5">
                 <h4>آنچه که ما ارائه میدهیم</h4>
-                <p class="titleInfo">آسانی پلت فرم همه کاره ما را که برای ساده کردن گردش کار و افزایش بهره وری شما طراحی شده است، تجربه کنید.</p>
+                <p class="titleInfo">آسانی پلت فرم همه کاره ما را که برای ساده کردن گردش کار و افزایش بهره وری شما طراحی
+                    شده است، تجربه کنید.</p>
                 <div class="row p-0 m-0 items">
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-5 mb-md-0">
                         <div>
                             <img src="pictures/icon-use.svg" alt="">
                             <h5 class="mb-0">استفاده ساده</h5>
-                            <p>رابط کاربری ساده برنامه ما به شما کمک می کند تا اهداف خود را تنها با چند کلیک به دست آورید.</p>
+                            <p>رابط کاربری ساده برنامه ما به شما کمک می کند تا اهداف خود را تنها با چند کلیک به دست
+                                آورید.</p>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-5 mb-md-0">
                         <div>
                             <img src="pictures/icon-discount.svg" alt="">
                             <h5 class="mb-0">تخفیف فراوان</h5>
@@ -96,7 +118,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-5 mb-md-0">
                         <div>
                             <img src="pictures/icon-wallet.svg" alt="">
                             <h5 class="mb-0">بدون هزینه</h5>
@@ -104,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-5 mb-md-0">
                         <div>
                             <img src="pictures/icon-clock.svg" alt="">
                             <h5 class="mb-0">دسترسی سریع</h5>
@@ -123,15 +145,18 @@
 
                 <section class="item mt-5">
                     <div class="row justify-content-around">
-                        <div class="col-md-6 imgWrapper text-end">
+                        <div class="col-md-6 imgWrapper text-center text-md-end">
                             <img src="pictures/pic1.svg" alt="">
                         </div>
                         <div class="col-md-6 infoWrapper">
                             <div>
                                 <h4 class="mb-3">به راحتی با دوستاتون خود سر یک میز بنشینید.</h4>
-                                <p class="mb-4">با هم غذا خوردن یک زبان جهانی عشق و دوستی است. چه یک میان وعده ساده باشد یا یک غذای عجیب و غریب، پیوند بین دوستان تنها با تجربه مشترک تقویت می شود. بنابراین، برای اوقات خوش و شاد باشید. در لذت با هم بودن.</p>
+                                <p class="mb-4">با هم غذا خوردن یک زبان جهانی عشق و دوستی است. چه یک میان وعده ساده باشد
+                                    یا یک غذای عجیب و غریب، پیوند بین دوستان تنها با تجربه مشترک تقویت می شود. بنابراین،
+                                    برای اوقات خوش و شاد باشید. در لذت با هم بودن.</p>
                                 <div class="d-flex justify-content-end">
-                                    <a href=""><span>دعوت از دوستان</span><i class="fa-solid fa-circle-arrow-left"></i></a>
+                                    <a href=""><span>دعوت از دوستان</span><i
+                                            class="fa-solid fa-circle-arrow-left"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -142,34 +167,41 @@
 
                 <section class="item mt-5">
                     <div class="row justify-content-around">
-                        <div class="col-md-6 infoWrapper">
+                        <div class="col-md-6 order-last order-md-first infoWrapper">
                             <div>
                                 <h4 class="mb-3">با پرداخت‌های جداگانه با استرس تقسیم صورت‌حساب خداحافظی کنید.</h4>
-                                <p class="mb-4">فرقی نمی‌کند با دوستان، خانواده یا همکارانتان غذا می‌خورید، پرداخت جداگانه به هر فرد اجازه می‌دهد مسئولیت هزینه‌های خود را بپذیرد و از غذا خوردن لذت ببرد بدون اینکه نگران بودجه دیگران باشد.</p>
+                                <p class="mb-4">فرقی نمی‌کند با دوستان، خانواده یا همکارانتان غذا می‌خورید، پرداخت
+                                    جداگانه به هر فرد اجازه می‌دهد مسئولیت هزینه‌های خود را بپذیرد و از غذا خوردن لذت
+                                    ببرد بدون اینکه نگران بودجه دیگران باشد.</p>
                                 <div class="d-flex justify-content-end">
                                     <a href=""><span>ثبت نام</span><i class="fa-solid fa-circle-arrow-left"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 imgWrapper text-start">
+                        <div class="col-md-6 order-first order-md-last imgWrapper text-center text-md-start">
                             <img src="pictures/pic2.svg" alt="">
                         </div>
                     </div>
                 </section>
 
-                
+
 
                 <section class="item mt-5">
                     <div class="row justify-content-around">
-                        <div class="col-md-6 imgWrapper text-end">
+                        <div class="col-md-6 imgWrapper text-center text-md-end">
                             <img src="pictures/pic3.svg" alt="">
                         </div>
                         <div class="col-md-6 infoWrapper">
                             <div>
-                                <h4 class="mb-3">مزایا و تخفیف های دنج نشین کردن را با برنامه دنجنشین تجربه کنید تجربه کنید.</h4>
-                                <p class="mb-4">برنامه دنج نشین به گونه ای طراحی شده است که بهترین تجربه خرید ممکن را به شما ارائه دهد. با دنج نشین کردن یک کافه و یا رستوران، از دسترسی اولویت به محصولات جدید، تخفیف های دنج نشین،که برای هیچ کس دیگری در دسترس نیست، لذت خواهید ببرید.</p>
+                                <h4 class="mb-3">مزایا و تخفیف های دنج نشین کردن را با برنامه دنجنشین تجربه کنید تجربه
+                                    کنید.</h4>
+                                <p class="mb-4">برنامه دنج نشین به گونه ای طراحی شده است که بهترین تجربه خرید ممکن را به
+                                    شما ارائه دهد. با دنج نشین کردن یک کافه و یا رستوران، از دسترسی اولویت به محصولات
+                                    جدید، تخفیف های دنج نشین،که برای هیچ کس دیگری در دسترس نیست، لذت خواهید ببرید.</p>
                                 <div class="d-flex justify-content-end">
-                                    <a href=""><span class="ps-2">ثبت کافه، رستوران</span><div class="imgLogo"><img src="pictures/logo-white.svg" alt=""></div></a>
+                                    <a href=""><span class="ps-2">ثبت کافه، رستوران</span>
+                                        <div class="imgLogo"><img src="pictures/logo-white.svg" alt=""></div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +216,7 @@
             <div class="text-center">
                 <img src="pictures/logo-white.svg" alt="">
             </div>
-            
+
             <h5>راه های ارتباطی با دنجنشین</h5>
             <section>
                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
